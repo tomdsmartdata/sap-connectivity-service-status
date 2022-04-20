@@ -64,4 +64,6 @@ else
 {
     Console.WriteLine($"There are no events for {productName} in {dataCenterName}");
 }
+// Provide some buffer space
+Console.WriteLine($"{Environment.NewLine}{Environment.NewLine}");
 return 0;
